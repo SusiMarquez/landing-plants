@@ -1,0 +1,54 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header{
+    height: 4em;
+    padding: 2em;
+    margin-bottom: 2em;
+    font-size: 1.5em;
+    background-image:url("../img/back-wood.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.header h1{
+    margin: 0px;
+    font-weight: 400;
+}
+
+.header p{
+    padding: 0em;
+    margin: 0em;
+}
+
+.products{
+    width: 80%;
+    margin: auto;
+}
+
+products td{
+    width: 50%;
+    padding:2em;
+}
+
+products img{
+    width: 100%;
+    border: solid 1 px #ddd;
+   
+}
+
+img{
+    width: 10em;
+    margin: 0 0.5em 1.8em 0;
+}
+
+.footer{
+    height: 3em;
+    line-height: 3em;
+    background-color: rgb(185, 122,41);
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 2em;
+}
